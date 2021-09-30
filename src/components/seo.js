@@ -62,7 +62,7 @@ const Seo = ({ description, lang, meta, title, path }) => {
           content: flyyer.href(),
         },
         {
-          property: `twitter:image`,
+          name: `twitter:image`,
           content: flyyer.href(),
         },
         {
